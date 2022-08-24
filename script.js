@@ -80,6 +80,7 @@ const year = 2022
 const shweta = "i'm " + firstName + ' a ' +  (year-birthYear) + ' years old ' + job + '!'
 console.log(shweta)
 
+//template literal
 const shwetaNew = `i am ${firstName} a ${job}`
 console.log(shwetaNew)
 

@@ -69,5 +69,17 @@ const BmiMark  =  massMark/(markHeight**2)
 const BmiJohn = massJohn/(johnHeight**2 )
 
 const markHigherBmi = BmiMark > BmiJohn
+
 console.log(BmiJohn, BmiMark, markHigherBmi)
+
+const newName = 'Shweta'
+const job = 'software engineer'
+const birthYear = 2004
+const year = 2022
+
+const shweta = "i'm " + firstName + ' a ' +  (year-birthYear) + ' years old ' + job + '!'
+console.log(shweta)
+
+const shwetaNew = `i am ${firstName} a ${job}`
+console.log(shwetaNew)
 

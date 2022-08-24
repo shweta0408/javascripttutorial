@@ -59,18 +59,6 @@ console.log(typeof continentName)
 */
 
 
-const massMark = 95
-const massJohn = 85
-
-const markHeight = 1.88
-const johnHeight = 1.76
-
-const BmiMark  =  massMark/(markHeight**2)
-const BmiJohn = massJohn/(johnHeight**2 )
-
-const markHigherBmi = BmiMark > BmiJohn
-
-console.log(BmiJohn, BmiMark, markHigherBmi)
 
 const newName = 'Shweta'
 const job = 'software engineer'
@@ -83,4 +71,34 @@ console.log(shweta)
 //template literal
 const shwetaNew = `i am ${firstName} a ${job}`
 console.log(shwetaNew)
+
+const age = 19
+const isOldEnough = age >= 18
+ 
+if ( isOldEnough){
+      console.log(`shweta can drive `) 
+}
+
+
+//test
+
+const massMark = 95
+const massJohn = 85
+
+const markHeight = 1.88
+const johnHeight = 1.76
+
+const BmiMark  =  massMark/(markHeight**2)
+const BmiJohn = massJohn/(johnHeight**2 )
+
+const markHigherBmi = BmiMark > BmiJohn
+
+console.log(BmiMark,BmiJohn,markHigherBmi)
+ if (BmiMark > BmiJohn){
+     console.log("Mark has greater BMI than John")
+
+ }  else console.log("John has more BMI")
+
+
+
 

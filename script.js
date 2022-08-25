@@ -80,7 +80,7 @@ if ( isOldEnough){
 }
 
 
-//test
+//test assignments
 
 const massMark = 95
 const massJohn = 85
@@ -92,7 +92,7 @@ const BmiMark  =  massMark/(markHeight**2)
 const BmiJohn = massJohn/(johnHeight**2 )
 
 const markHigherBmi = BmiMark > BmiJohn
-
+//BMI test with if else
 console.log(BmiMark,BmiJohn,markHigherBmi)
  if (BmiMark > BmiJohn){
      console.log("Mark has greater BMI than John")

@@ -121,3 +121,65 @@ let m = '3'-1 //number rules out when - operator is there
 m = m-1
  console.log(m)
 
+ //truthy falsy
+ //there are 5 falsy values in javascript : 0 , '', undefined, null,NaN
+
+ console.log(Boolean(NaN)) //false
+ console.log(Boolean(0))   //false
+ console.log(Boolean(undefined)) //false
+ console.log(Boolean({})) //true
+ console.log(Boolean("")) //false
+ console.log(Boolean(null)) //  yiled false
+
+ const money = 0
+ if (money){
+     console.log("Dont spend it all")
+ } else {
+    console.log("sorry get a job")
+ }
+
+let height
+if (height){
+    console.log("valid height")
+} else {
+    console.log("invalid")
+}
+
+//equality operators
+
+const age2 = 18
+if (age2 ===18){
+    console.log("eligible")
+}
+
+// === is strict equality operator, doesn't do type coersion
+// == does type coersion 
+// eg: '18' == 18 true; because of type coersion
+// eg: '18' === 18 false; because it is strict equality operator
+
+
+const  favouriteNum = Number(prompt("What's your favourite number?"))
+console.log(favouriteNum)
+console.log(typeof favouriteNum)
+
+if(favouriteNum ==23){ // '23' == 23
+     console.log("cool!")
+}else if (favouriteNum === 7){
+    console.log("7 is also cool")
+}else {
+    console.log("neither 23 nor 7")
+}
+
+
+if(favouriteNum !== 23){
+    console.log("it is not 23")
+} 
+
+
+
+
+
+
+
+
+

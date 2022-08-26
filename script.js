@@ -157,7 +157,7 @@ if (age2 ===18){
 // eg: '18' == 18 true; because of type coersion
 // eg: '18' === 18 false; because it is strict equality operator
 
-
+/*
 const  favouriteNum = Number(prompt("What's your favourite number?"))
 console.log(favouriteNum)
 console.log(typeof favouriteNum)
@@ -174,12 +174,60 @@ if(favouriteNum ==23){ // '23' == 23
 if(favouriteNum !== 23){
     console.log("it is not 23")
 } 
+*/
 
 
+//practice session
 
+const dolphinScore = (97 + 108 + 89)/3
+const KoalaScore = (88+91+110)/3
 
+console.log(dolphinScore , KoalaScore)
 
+if (dolphinScore > KoalaScore){
+    console.log("Dolphins win trophy")
+}else if (KoalaScore>dolphinScore){
+    console.log("Koala wins Trophy")
+}else if (dolphinScore === KoalaScore){
+    console.log("Game Draw")
+}
 
+//Switch Statement
+ const day = 'friday'
 
+ switch(day){
+    case 'monday':
+        console.log("plan couse structure")
+        break
+    case 'tuesday' :
+        console.log("prepare theory")
+        break
+    case 'wednesday':
+        console.log("prepare tests")
+        break
+    case 'thursday':
+        console.log("prepare results")
+        break
+    case 'friday':
+        console.log("make topper list")
+        break
+    case 'saturday':
+       console.log("weekend")
+       break
+    default: console.log("not weekday")
+ }
 
+ //the conditional (ternary) operator
+ const age3 = 12;
+ age >= 18 ? console.log('i like to drink tea') 
+           : console.log("i like to drink coffee")
 
+const drink = age3 >= 18 ? 'wine' : 'water'
+console.log(drink)
+
+//final coding challenge
+
+const billValue = 275 + 40 + 430
+billValue>=50 && billValue<=300 ?
+ console.log(`${billValue}, and the tip is ${(15/100)*billValue}`  ) :
+ console.log(`${billValue} and the tip is ${Math.floor((30/100)*billValue)}`)

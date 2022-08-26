@@ -99,6 +99,25 @@ console.log(BmiMark,BmiJohn,markHigherBmi)
 
  }  else console.log("John has more BMI")
 
+//type conversion
+
+const inputYear = '1991'
+console.log(Number(inputYear) , inputYear)
+console.log(Number(inputYear )+ 18)
+console.log(String(23) , 23)
+
+//type coercion
+console.log('i am' + 23 +'years old')
+console.log('23'-'10'-3)// strings are converted to numbers
+console.log('23' + '10' + 3)//number converted to string by + operator
+console.log('23'*'2') // strings into number by * operator
 
 
+let n = '1'+1 //string rules out with + operator
+  n = n-1
+  console.log(n)
+
+let m = '3'-1 //number rules out when - operator is there
+m = m-1
+ console.log(m)
 
